@@ -1,0 +1,14 @@
+package TP;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Personnel personnel = new Personnel();
+		personnel.ajouterEmploye(new Vendeur("DUPONT","Marc",25,"2005",4500 ));
+		
+		personnel.afficherSalaire();
+
+	}
+
+}

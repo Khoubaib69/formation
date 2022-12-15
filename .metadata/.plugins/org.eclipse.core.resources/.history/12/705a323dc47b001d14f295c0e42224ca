@@ -1,0 +1,19 @@
+package TP2;
+
+public class Consultant extends Salarie{
+
+	
+	private static int ESSAI_CONSULTANT = 3;
+	private Manager manager;
+	
+	public Consultant(String nom, String prenom, int age, double salaire, Manager manager) {
+		super(nom, prenom, age, salaire);
+		this.manager = manager;
+	}
+
+	@Override
+	public void Pointer() {
+		System.out.println("Consultant "+getNom()+" présent.");
+		
+	}
+}

@@ -1,0 +1,17 @@
+package Methodes;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//Méthode: un ensemble d'instructions réutilisables
+		/*
+		 * 2 types de méthodes:
+		 * Procédure: une méthode qui ne renvoie aucun résultat - mot void
+		 * Fonction: une méthode qui renvoie un résultat
+		 * 
+		 */
+
+	}
+
+}

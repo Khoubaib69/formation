@@ -1,0 +1,28 @@
+package Encapsulation;
+
+public class Rectangle {
+
+	private double hauteur;
+	
+	public double GetHauteur() {
+		return hauteur;
+	}
+	
+	public void SetHauteur(double valeur) {
+		hauteur = valeur;
+	}
+	
+	private double largeur;
+	
+	public double GetLargeur() {
+		return largeur;
+	}
+	
+	public void SetLargeur(double valeur) {
+		largeur = valeur;
+	}
+	
+	public double surface() {
+		return hauteur * largeur;
+	}
+}

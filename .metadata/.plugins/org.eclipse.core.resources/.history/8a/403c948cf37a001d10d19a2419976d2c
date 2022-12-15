@@ -1,0 +1,39 @@
+package Principal;
+
+import Encapsulation.CompteBancaire;
+import Encapsulation.Rectangle;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		//Concepts objets: Encapsulation - Héritage - Polymorphisme - Abstraction - Agrégation (association - composition)
+		
+		double hauteur = 10;
+		double largeur = 15;
+		double surf = Surface(hauteur, largeur);
+		
+		double hauteur1 = 10;
+		double largeur1 = 15;
+		double surf1 = Surface(hauteur1, largeur1);
+		
+		//Encapsulation:
+		//1- Rassembler dans une seule et même les params et les fonctions qui concernent le mm sujet
+		//2- Pas d'accès publique aux attributs d'une classe. L'accès passe forcément par les accesseurs (Getteurs/Setteurs)
+		
+		Rectangle rec = new Rectangle();
+		rec.SetHauteur(-10); 
+		rec.SetLargeur(15);
+		rec.surface();
+		
+		CompteBancaire cpt = new CompteBancaire();
+		cpt.setNumero("");
+
+	}
+
+	private static double Surface(double hauteur, double largeur) {
+		// TODO Auto-generated method stub
+		return hauteur * largeur;
+	}
+
+}

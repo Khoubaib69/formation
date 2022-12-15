@@ -1,0 +1,25 @@
+package TP_Calculatrice;
+
+public class Calculatrice {
+
+	public static void main(String[] args) {
+		/*
+		 * Demander à l'utilisateur de choisir une opération, de fournir 2 nombres ---- Afficher le résultat
+		 * 
+		 */
+		String choix = "";
+		double valeur1 = 0, valeur2 = 0;
+		
+		//Affichage d'un menu
+		System.out.println("**********CALCULATRICE-CONSOLE**************");
+		System.out.println();
+		System.out.println("****Opérations possibles:");
+		System.out.println();
+		System.out.println("1- Addition: tapez a");
+		System.out.println("2- Soustraction: tapez s");
+		System.out.println("3- Multiplication: tapez m");
+		System.out.println("4- Division: tapez d");
+
+	}
+
+}

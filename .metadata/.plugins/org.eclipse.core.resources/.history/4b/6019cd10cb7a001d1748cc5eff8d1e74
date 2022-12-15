@@ -1,0 +1,8 @@
+package Enumeration;
+
+public class User {
+	
+	public String nom;
+	public Profils profil;
+
+}

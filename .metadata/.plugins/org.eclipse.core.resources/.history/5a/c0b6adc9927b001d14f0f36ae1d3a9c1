@@ -1,0 +1,16 @@
+package Heritage;
+
+public class GestionAnimal {
+
+	public void AddAnimal(Animal a) {
+
+	}
+
+	public void DeleteAnimal(Animal a) {
+
+	}
+
+	public void UpdateAnimal(Animal a) {
+
+	}
+}

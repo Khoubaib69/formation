@@ -1,0 +1,11 @@
+package Heritage;
+
+public class Chat extends Animal{
+
+	@Override
+	public void emettreUnSon() {
+		System.out.println("Miauller");
+	}
+
+	
+}

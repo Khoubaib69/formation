@@ -1,0 +1,11 @@
+package Encapsulation;
+
+public class Rectangle {
+
+	private double hauteur;
+	private double largeur;
+	
+	public double surface() {
+		return hauteur * largeur;
+	}
+}

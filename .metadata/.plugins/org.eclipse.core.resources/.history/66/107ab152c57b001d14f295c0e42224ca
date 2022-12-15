@@ -1,0 +1,16 @@
+package TP2;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Manager man = new Manager("nomManager", "prenomManager", 50, 5000);
+		Dev dev = new Dev("nomDev", "prenom", 25, 2000, man);
+		
+		//dev.setSalaire(3500);
+		
+		dev.ModifierSalaire(3500, dev);
+
+	}
+
+}

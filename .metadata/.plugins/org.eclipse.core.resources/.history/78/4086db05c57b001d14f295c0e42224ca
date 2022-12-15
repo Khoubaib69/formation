@@ -1,0 +1,58 @@
+package TP2;
+
+public abstract class Salarie {
+	
+	private String nom;
+	private String prenom;
+	private int age;
+	private double salaire;
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		if(age>=18 && age<=65 ) {
+			this.age = age;
+		}else {
+			System.out.println("Age compris entre 18 et 65");
+		}
+		
+	}
+	public double getSalaire() {
+		return salaire;
+	}
+	private void setSalaire(double salaire) {
+		if(salaire >=2000) {
+			this.salaire = salaire;
+		}else {
+			System.out.println("Salaire min est de 2000");
+		}
+		
+	}
+	
+	public abstract void Pointer();
+	
+	public Salarie(String nom, String prenom, int age, double salaire) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		setAge(age);
+		setSalaire(salaire);
+	}
+	
+	
+	
+	
+
+}

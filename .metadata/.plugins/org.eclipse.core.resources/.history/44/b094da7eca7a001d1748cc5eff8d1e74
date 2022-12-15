@@ -1,0 +1,36 @@
+package Enumeration;
+
+import java.util.Scanner;
+
+public class App {
+	
+	public enum Erreurs{
+		CRITIQUE,
+		MAJEURE,
+		MINEURE
+	}
+
+	public static void main(String[] args) {
+		
+		//Enum: un ensemble de valeurs constantes
+		
+		Erreurs err = Erreurs.MAJEURE;
+		System.out.println(err);
+		
+		Erreurs[] tab = Erreurs.values();
+		
+		for(Erreurs er : tab) {
+			System.out.println(er);
+		}
+		
+		System.out.println(err.ordinal());
+		
+		System.out.println("Code de votre erreur (0-2)?");
+		Scanner sc  = new Scanner(System.in);
+		int code = sc.nextInt();
+		
+		System.out.println("Votre erreur est: "+Erreurs.values()[code]); 
+
+	}
+
+}

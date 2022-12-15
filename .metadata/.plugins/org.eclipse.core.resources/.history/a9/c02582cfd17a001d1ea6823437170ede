@@ -1,0 +1,28 @@
+package Methodes;
+
+public class MesMethodes {
+	
+	//Signature d'une méthode:
+	
+	//VISIBILITE [static] Type_Retour (void) nom_Methode(paramétres){ instructions; }
+	/*Une classe peut contenir 2 types de méthodes:
+	 * 
+	 * Méthode de classe:
+	 * Méthode d'instance
+	 * 
+	 * 
+	 */
+	
+	//Méthode d'instance: est une méthode accéssible via une instance de la classe en question
+	//Instancier une classe, créer un objet à partir de cette classe
+	
+	public void afficher(String chaine) {
+		System.out.println(chaine);
+	}
+	
+	//Méthode de classe: qu'on appelle a partir de la classe NomClasse.NomMethode
+	public static void afficher2(String chaine) {
+		System.out.println(chaine);
+	}
+
+}

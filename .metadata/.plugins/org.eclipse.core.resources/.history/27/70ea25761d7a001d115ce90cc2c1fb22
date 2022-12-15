@@ -1,0 +1,24 @@
+package Bases;
+
+public class Operateurs {
+
+	public static void main(String[] args) {
+		
+		//opérateurs arithmétiques: + - * / %(Modulo reste de la division entière)
+		int i = 10, j = 25;
+		int somme = i + j;
+		int soustraction = i - j;
+		int multiplication = i *j;
+		int modulo = j % i; // 5
+		
+		System.out.println("Modulo = "+modulo);
+		
+		//Opérateurs d'incrémentation et de décrémenatation
+		int r = 10, r2 = 15;
+		
+		System.out.println(++r); // r+++ => r = r + 1;
+		
+
+	}
+
+}

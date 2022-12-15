@@ -1,0 +1,13 @@
+package Methodes;
+
+public class MesMthodes {
+	
+	//Signature d'une méthode:
+	
+	//VISIBILITE [static] Type_Retour (void) nom_Methode(paramétres){ instructions; }
+	
+	public void afficher(String chaine) {
+		System.out.println(chaine);
+	}
+
+}

@@ -1,0 +1,33 @@
+package Bases;
+
+public class Boucles {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * Boucles répetitives: For - Foreach
+		 * For: on doit connaitre le nombre d'itérations
+		 * Foreach: permet de faire un parcours complet d'une collection: tableau, liste......
+		 * 
+		 * Boucles conditionnelles:
+		 * While (tant que la condition est vraie) - Do/While (tant que la condition est vraie)
+		 * 
+		 * Expressions conditionnelles:
+		 * IF/ELSE - Switch - Opérateur ternaire
+		 * 
+		 * 
+		 */
+		
+		System.out.println("***********IF/ELSE***********");
+		int x = 0;
+		if (x > 0) 
+			System.out.println("x positif");
+		else if(x < 0) 
+			System.out.println("x négatif");
+		else 
+			System.out.println("x égale 0");
+		
+
+	}
+
+}

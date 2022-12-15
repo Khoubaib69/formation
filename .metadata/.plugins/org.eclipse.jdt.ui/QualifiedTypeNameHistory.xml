@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="Enumeration.App.Erreurs"/>
+    <fullyQualifiedTypeName name="Enumeration.Profils"/>
+    <fullyQualifiedTypeName name="Enumeration.App.User"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Enumeration.Autorisation"/>
+    <fullyQualifiedTypeName name="Methodes.MesMthodes"/>
+    <fullyQualifiedTypeName name="java.beans.XMLEncoder"/>
+    <fullyQualifiedTypeName name="Methodes.MesMethodes"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Encapsulation.Rectangle"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Principal.App"/>
+    <fullyQualifiedTypeName name="Encapsulation.CompteBancaire"/>
+    <fullyQualifiedTypeName name="Heritage.Chat"/>
+    <fullyQualifiedTypeName name="Heritage.Chien"/>
+    <fullyQualifiedTypeName name="Heritage.Animal"/>
+    <fullyQualifiedTypeName name="Heritage.Souris"/>
+    <fullyQualifiedTypeName name="Heritage.Giraffe"/>
+    <fullyQualifiedTypeName name="Abstraction.Homme"/>
+    <fullyQualifiedTypeName name="Abstraction.Femme"/>
+    <fullyQualifiedTypeName name="Abstraction.Personne"/>
+    <fullyQualifiedTypeName name="Agregation.Client"/>
+    <fullyQualifiedTypeName name="Agregation.Adresse"/>
+    <fullyQualifiedTypeName name="TP.Manutentionnaire"/>
+    <fullyQualifiedTypeName name="TP.IPrime"/>
+    <fullyQualifiedTypeName name="TP.Personnel"/>
+    <fullyQualifiedTypeName name="TP2.Manager"/>
+    <fullyQualifiedTypeName name="TP2.Dev"/>
+</qualifiedTypeNameHistroy>

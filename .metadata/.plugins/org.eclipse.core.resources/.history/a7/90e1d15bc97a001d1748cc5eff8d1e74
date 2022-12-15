@@ -1,0 +1,26 @@
+package Enumeration;
+
+public class App {
+	
+	public enum Erreurs{
+		CRITIQUE,
+		MAJEURE,
+		MINEURE
+	}
+
+	public static void main(String[] args) {
+		
+		//Enum: un ensemble de valeurs constantes
+		
+		Erreurs err = Erreurs.MAJEURE;
+		System.out.println(err);
+		
+		Erreurs[] tab = Erreurs.values();
+		
+		for(Erreurs er : tab) {
+			System.out.println(er);
+		}
+
+	}
+
+}

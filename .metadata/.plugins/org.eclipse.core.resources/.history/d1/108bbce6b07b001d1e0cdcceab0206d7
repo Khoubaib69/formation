@@ -1,0 +1,8 @@
+package TP;
+
+public class Manutentionnaire {
+
+	private double heures;
+	private static double TAUX_HORAIRE = 65;
+	
+}
