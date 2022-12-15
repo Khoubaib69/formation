@@ -11,7 +11,7 @@ public class Calculatrice {
 		 */
 		String choix = "", quitter="non";
 		double valeur1 = 0, valeur2 = 0;
-		
+		///
 		do {
 			//Affichage d'un menu
 			System.out.println("**********CALCULATRICE-CONSOLE**************");
